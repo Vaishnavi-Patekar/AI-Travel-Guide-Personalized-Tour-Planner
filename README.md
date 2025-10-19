@@ -10,7 +10,7 @@ It also includes a **Suggested Trips** section with curated destinations, and ca
 
 
 ## 🌐 Live Demo
-🔴 **Live Demo:** [Click here to explore the app](ai-travel-guide-persona-git-a4d594-vaishnavis-projects-960ebb10.vercel.app)  
+🔴 **Live Demo:** [Click here to explore the app](https://ai-travel-guide-personalized-tour-p.vercel.app/)  
 
 
 ---
