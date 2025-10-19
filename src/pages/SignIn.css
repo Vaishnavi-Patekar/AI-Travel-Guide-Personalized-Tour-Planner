@@ -1,0 +1,116 @@
+/* .signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.signin-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+}
+
+input, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+} */
+
+
+/* SignIn.css */
+
+/* Wrapper to center the card in the viewport */
+.auth-wrapper {
+    min-height: calc(100vh - 75px); /* Full height minus Navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f4f8; /* Light, clean background */
+}
+
+/* Main Auth Card Container */
+.signin-container {
+    width: 100%;
+    max-width: 400px; /* Max width for a clean card */
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Professional shadow */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signin-container h2 {
+    color: #0d1a26;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Form Styling */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-form input {
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.auth-form input:focus {
+    border-color: #0077b6;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 119, 182, 0.1);
+}
+
+/* Button Styling */
+.auth-button {
+    padding: 14px;
+    background-color: #4CAF50; /* Attractive green for action */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: #43a047;
+}
+
+/* Toggle Link Styling */
+.toggle-text {
+    margin-top: 25px;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.toggle-link {
+    color: #0077b6; /* Blue for contrast and interactivity */
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.toggle-link:hover {
+    color: #005691;
+}

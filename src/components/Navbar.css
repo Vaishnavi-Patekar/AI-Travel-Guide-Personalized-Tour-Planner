@@ -1,0 +1,85 @@
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: #2c3e50;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #f39c12;
+} */
+
+
+/* Navbar.css */
+
+.navbar {
+    /* Deep, professional background color */
+    background-color: #0d1a26; 
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #4CAF50; /* A contrasting color for the logo (Travel green) */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    /* Smooth transition for hover effects */
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding-bottom: 5px; /* Space for the border */
+    position: relative;
+}
+
+.nav-links a:hover {
+    color: #4CAF50; /* Highlight on hover */
+    /* Add a subtle underline effect */
+    border-bottom: 2px solid #4CAF50;
+}
+
+/* Optional: Style for the active link if you implement it */
+/* .nav-links a.active {
+    border-bottom: 2px solid #4CAF50;
+    color: #4CAF50;
+} */
